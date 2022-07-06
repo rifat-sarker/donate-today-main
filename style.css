@@ -6,12 +6,12 @@
 body{
     font-family: 'Inter', sans-serif;
 }
+/* banner-section starts from here */
 #banner-section{
     background-image: url(images/donation9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    color:white;
-    
+    color:white;   
 }
 .banner{
     text-align: center;
@@ -19,15 +19,12 @@ body{
     background-image: linear-gradient(#ffffff1f ,#00000091,#000000f2);
  }
 .heading{
-    
     font-size: 90px;
 }
 .heading2{
     font-size: 25px;
-    margin-bottom: 40px;
-    
+    margin-bottom: 40px;   
 }
-
 .link-btn{
     text-decoration: none;
     border:3px solid #FF5959;
@@ -37,9 +34,8 @@ body{
     border-radius: 5px;
     font-size: 20px;    
 }
-
-
-
+/* banner-section ends here */
+/* donate section starts from here */
 #donate-section{
     margin: 50px;  
 }
@@ -51,7 +47,6 @@ h2{
     height: 400px;
     padding-top: 70px;
 }
-
 .money{
     justify-content: center;
     display: flex;
@@ -72,9 +67,7 @@ h2{
     padding:45px 45px;
     background-color: rgb(236, 226, 226);
     color:red;
-    margin:10px;
-    
-    
+    margin:10px;    
 }
 .form{
     text-align: center;
@@ -94,8 +87,7 @@ h2{
 }
 .donate-plan{
     text-align: center;
-    padding-top: 140px;
-    
+    padding-top: 140px;  
 }
 .plan-details{
     color:#707070;
@@ -103,8 +95,7 @@ h2{
 }
 .container{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 #div1{
     background-color: #EDF5F6 ;
@@ -132,13 +123,11 @@ h2{
 #img-div{
     padding-top: 5px;
     padding-bottom: 30px;
-
 }
-
-
+/* donate section ends here */
+/* volunteer section starts from here */
 #volunteer-section{
-    text-align: center;
-    
+    text-align: center;  
 }
 .head1{
     font-size: 50px;
@@ -156,8 +145,7 @@ h2{
     height: 300px;
     width: 100%px;
     padding: 80px 10px;
-    text-align: left;
-    
+    text-align: left;   
 }   
 .h4-tag{
     color:white;
@@ -175,13 +163,12 @@ h2{
     border-radius: 5px;
     margin-bottom: 0px; 
 }
-
+/* volunteer section ends here */
+/* team section starts from here */
 #team-section{
     text-align: center;
-    padding: 70px;
-    
+    padding: 70px;  
 }
-
 .input-area{
     background-color: #FFF4D6;
     height: 200px;
@@ -191,9 +178,6 @@ h2{
     text-align: center;
     margin: auto;
     display: inline-block;
-}
-.div-input{
-    
 }
 .team-title{
     font-size: 44px;
@@ -216,9 +200,7 @@ h2{
     border:none;
     width: 150px;
 }
-
-
-
+/* team section ends here */
 /* footer starts from here */
 footer{
     background-color: black;
