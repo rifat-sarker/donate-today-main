@@ -6,17 +6,15 @@
 body{
     font-family: 'Roboto Slab', serif;
 }
-#help-section{
-    background-image: url(images/donation9.jpg);
+#banner-section{
+    background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    color:white;
-    
+    color:white;   
 }
-.help{
+.banner{
     text-align: center;
-    height:600px;
-    
+    height:600px; 
  }
 .heading{
     padding-top: 200px;
@@ -87,7 +85,7 @@ h2{
 
 .donate-plan{
     text-align: center;
-    padding-top: 70px;
+    padding-top: 140px;
     
 }
 .plan-details{
@@ -122,17 +120,93 @@ h2{
     text-align: left;
     padding-left: 15px;    
 }
-.img-div{
+#img-div{
     padding-top: 5px;
     padding-bottom: 30px;
 
 }
-.img-style{
-      
+
+
+#volunteer-section{
+    text-align: center;
+    
+}
+.head1{
+    font-size: 50px;
+}
+.volunteer-hero{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.sign-up-section{
+    display: flex;
+    justify-content: center;
+}
+.sign-up-form{
+    background-color: #007CAF;
+    height: 300px;
+    width: 100%px;
+    padding: 80px 10px;
+    text-align: left;
+    
+}   
+.h4-tag{
+    color:white;
+    font-size: 25px;
+}
+.p-tag{
+    color: white;
+}
+.btn-style{
+    color: white;
+    background-color: red;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 0px; 
 }
 
+#team-section{
+    text-align: center;
+    padding: 70px;
+    
+}
 
-
+.input-area{
+    background-color: #FFF4D6;
+    height: 200px;
+    width:709px;
+    padding-top: 75px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+}
+.div-input{
+    
+}
+.team-title{
+    font-size: 44px;
+    padding-bottom: 35px;
+}
+.team-contact{
+    padding-bottom: 40px;
+}
+.email{
+    background-color: #D9D9D9;
+    border:none;
+    padding: 15px;
+    border-radius: 2px;
+    width: 230px;
+}
+.btn{
+    border-radius: 2px;
+    padding: 15px;
+    background-color: #FF5959;
+    border:none;
+    width: 150px;
+}
 
 
 
@@ -145,6 +219,6 @@ footer{
 }
 .footer-header{
     font-family: 'Lobster', cursive;
-    padding-top: 15px;  
+    padding-top: 35px;  
     color:red
 }
