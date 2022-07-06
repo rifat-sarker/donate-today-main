@@ -4,22 +4,23 @@
     padding: 0;
 }
 body{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Inter', sans-serif;
 }
 #banner-section{
-    background-image: url(images/donation13.jpg);
+    background-image: url(images/donation9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    color:white;   
+    color:white;
+    
 }
 .banner{
     text-align: center;
-    height:600px; 
+    padding: 150px;
+    background-image: linear-gradient(#ffffff1f ,#00000091,#000000f2);
  }
 .heading{
-    padding-top: 200px;
-    padding-left:150px;
-    font-size: 70px;
+    
+    font-size: 90px;
 }
 .heading2{
     font-size: 25px;
@@ -76,13 +77,21 @@ h2{
     
 }
 .form{
+    text-align: center;
+}
+.input-field{
+    width: 413px;
+    height: 27px;
+    text-align: center;
+    border-color: #eeebeb;
+    border:none;
+    border-bottom: 1px solid rgb(185, 161, 161);
+    padding: 25px;
+}
+.link-btn{
     align-items: center;
-    padding: 0 262px;
+    justify-content: center;
 }
-.amount{
-    color: rgb(199, 190, 172);
-}
-
 .donate-plan{
     text-align: center;
     padding-top: 140px;
@@ -210,7 +219,7 @@ h2{
 
 
 
-
+/* footer starts from here */
 footer{
     background-color: black;
     color: white;
@@ -222,3 +231,4 @@ footer{
     padding-top: 35px;  
     color:red
 }
+/* footer ends here */
